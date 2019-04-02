@@ -10,24 +10,23 @@
 }
 
 .Title div.caption{
-  margin:0;
-  padding:0;
+  padding-top: 150px;
   text-align: center;
 }
 
 .Title .caption h1.mean_cap{
   font-family: "lato-black", Helvetica, Arial, sans-serif;
-  font-size: 60px;
+  font-size: 58px;
   color: #fff;
   text-transform: uppercase;
   line-height: 70px;
   letter-spacing: 2px;
 }
 
-.Title .caption #sub_cap{
+.Title .caption .sub_cap{
   font-family: "lato-light", Helvetica, Arial, sans-serif;
   font-weight: lighter;
-  font-size: 60px;
+  font-size: 40px;
   color: #fff;
   text-transform: uppercase;
   line-height: 70px;

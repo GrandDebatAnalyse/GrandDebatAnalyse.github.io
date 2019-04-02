@@ -10,8 +10,17 @@
 }
 
 .Title div.caption{
-  padding-top: 150px;
+  position:absolute;
+  border-radius: 8px;
+  box-shadow: 0 0 32px rgba(0,0,0,0.5);
+  top : 150px;
+  left : 26%;
   text-align: center;
+  background-color: rgba(0,0,0, .5);
+}
+
+.Title .caption .cap_text{
+  padding:10px;
 }
 
 .Title .caption h1.mean_cap{

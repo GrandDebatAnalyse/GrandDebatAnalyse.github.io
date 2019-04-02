@@ -3,6 +3,8 @@
   	<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
     <title>Analyse du Grand Débat National</title>
     <link rel="icon" type="image/png" href="img/logo_onglet.png" />
@@ -12,13 +14,14 @@
 
   <body>
     <!--  Start top Section  -->
-    <section class="hero">
-      <section class="caption">
+    <section class="Title">
+      <div class="caption">
           <h1 class="mean_cap">Le Grand Débat, Un Grand Blabla ?</hA>
-          <div id="sub_cap">Un voyage dans les données !</div>
+            
+          <div class="sub_cap" id="typed"></div>
 
           <a href="#" class="btn_details"><span>Allons-y</span></a>
-      </section>
+      </div>
     </section>
     <!--  End top Section  -->
 
@@ -43,7 +46,6 @@
      	</div>
      	<div class="frise">
         <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1zCWGI1oKluo3IpgWHzzVEcpC85AF2RjiQR62muWND5M&font=Default&lang=fr&initial_zoom=3' width='80%' height='500' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-        <!--  lien du spreadsheet : https://docs.google.com/spreadsheets/d/1zCWGI1oKluo3IpgWHzzVEcpC85AF2RjiQR62muWND5M/edit?usp=sharing  -->
      	</div>
     </section>
     <!--  End history Section  -->
@@ -146,6 +148,17 @@
         </div>
 	</section>
 
+
+  <!-- Javascript Scripts  -->
+
+  <script type="text/javascript">
+    var typed = new Typed('#typed', {
+      strings: ["Un voyage dnas","Un voyage dans lse don","Un voyage dans les données !"],
+      typeSpeed: 50,
+      cursorChar: '',
+      smartBackspace: false
+    });
+  </script>
 
   </body>
 

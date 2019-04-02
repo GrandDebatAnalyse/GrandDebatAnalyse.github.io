@@ -1,23 +1,21 @@
-/*    hero    */
+/*    Title    */
 
-.hero{
+.Title{
+  margin:0;
+  padding:0;
   width: 100%;
   height: 750px;
   background: url('../img/top_img.jpg') no-repeat 50% 50%;
-  /* background: url('../img/top_img.jpg') no-repeat 50% 50%; */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-     background-size: cover; 
+  background-size: cover; 
 }
 
-.hero .caption{
-  margin-top: 140px;
+.Title div.caption{
+  margin:0;
+  padding:0;
   text-align: center;
-  
 }
 
-.hero .caption h1.mean_cap{
+.Title .caption h1.mean_cap{
   font-family: "lato-black", Helvetica, Arial, sans-serif;
   font-size: 60px;
   color: #fff;
@@ -26,7 +24,7 @@
   letter-spacing: 2px;
 }
 
-.hero .caption #sub_cap{
+.Title .caption #sub_cap{
   font-family: "lato-light", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   font-size: 60px;
@@ -36,7 +34,7 @@
   margin-bottom: 50px;
 }
 
-.hero .caption .btn_details span{
+.Title .caption .btn_details span{
   display: inline-block;
   color: #fff;
   font-family: "raleway-regular", Helvetica, Arial, sans-serif;

@@ -4,7 +4,7 @@ body{margin:0;}
   margin:0;
   padding:0;
   width: 100%;
-  height: 650px;
+  height: 50vw;
   background: url('../img/top_img.jpg') no-repeat 50% 50%;
   background-size: cover; 
   padding-top: 10vw;
@@ -31,7 +31,7 @@ body{margin:0;}
   font-size: 4vw;
   color: #fff;
   text-transform: uppercase;
-  line-height: 70px;
+  line-height: 5vw;
   letter-spacing: 2px;
 }
 
@@ -41,8 +41,8 @@ body{margin:0;}
   font-size: 3vw;
   color: #fff;
   text-transform: uppercase;
-  line-height: 70px;
-  margin-bottom: 50px;
+  line-height: 5vw;
+  margin-bottom: 5vw;
 }
 
 .Title .caption .btn_details span{
@@ -54,7 +54,6 @@ body{margin:0;}
   position: relative;
   margin-right: 5px;
   border-bottom: 1px dashed #ffffff;
-  padding-bottom: 0px;
   animation: Test 1s infinite;
   animation-name: Test;
   animation-duration: 1s;
@@ -64,7 +63,6 @@ body{margin:0;}
   animation-direction: normal;
   animation-fill-mode: none;
   animation-play-state: running;
-  padding-bottom: 10px;
 }
 
 /*    presentation    */

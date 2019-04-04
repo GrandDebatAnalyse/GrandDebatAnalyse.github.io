@@ -158,14 +158,27 @@ body{margin:0;}
 }
 
 .historique .mean_title{
-  color: #454545;
+  /*color: #454545;
   font-family: "raleway-bold", Helvetica, Arial, sans-serif;
   font-size: 23px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center; 
-  background-color: #B0C4DE;
+  background-color: #B0C4DE;*/
+  margin:0 0 20px 0; 
+  font-size:22px; 
+  line-height:normal; 
+  font-weight:normal; 
+  text-transform:uppercase;
+  text-align: center; 
+  color: #474747;
+  font-family: "Georgia";
+  padding:0px 0px 8px;
+  line-height: 1.5em;
+  position:relative;
+  /*border-bottom: 2px solid blue;
+  border-bottom-width: thick;*/
 }
 
 
@@ -234,17 +247,28 @@ body{margin:0;}
 }
 
 .survey .mean_title{
-  color: #454545;
+  /*color: #454545;
   font-family: "raleway-bold", Helvetica, Arial, sans-serif;
   font-size: 23px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center; 
-  align-items: center;
-  background-color: #B0C4DE;
+  background-color: #B0C4DE;*/
+  margin:0 0 20px 0; 
+  font-size:22px; 
+  line-height:normal; 
+  font-weight:normal; 
+  text-transform:uppercase;
+  text-align: center; 
+  color: #474747;
+  font-family: "Georgia";
+  padding:0px 0px 8px;
+  line-height: 1.5em;
+  position:relative;
+  /*border-bottom: 2px solid blue;
+  border-bottom-width: thick;*/
 }
-
 .survey .monkey_surv{
   text-align: center;
   align-items: center;
@@ -503,15 +527,27 @@ body{margin:0;}
 }
 
 .map .mean_title{
-  color: #454545;
+  /*color: #454545;
   font-family: "raleway-bold", Helvetica, Arial, sans-serif;
   font-size: 23px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center; 
-  align-items: center;
-  
+  background-color: #B0C4DE;*/
+  margin:0 0 20px 0; 
+  font-size:22px; 
+  line-height:normal; 
+  font-weight:normal; 
+  text-transform:uppercase;
+  text-align: center; 
+  color: #474747;
+  font-family: "Georgia";
+  padding:0px 0px 8px;
+  line-height: 1.5em;
+  position:relative;
+  /*border-bottom: 2px solid blue;
+  border-bottom-width: thick;*/
 }
 
 /*     Call to action     */
@@ -540,14 +576,27 @@ body{margin:0;}
 
 
 .cta .mean_title{
-  color: #454545;
+  /*color: #454545;
   font-family: "raleway-bold", Helvetica, Arial, sans-serif;
   font-size: 23px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center; 
-  background-color: #B0C4DE;
+  background-color: #B0C4DE;*/
+  margin:0 0 20px 0; 
+  font-size:22px; 
+  line-height:normal; 
+  font-weight:normal; 
+  text-transform:uppercase;
+  text-align: center; 
+  color: #474747;
+  font-family: "Georgia";
+  padding:0px 0px 8px;
+  line-height: 1.5em;
+  position:relative;
+  /*border-bottom: 2px solid blue;
+  border-bottom-width: thick;*/
 }
 
 
@@ -715,7 +764,7 @@ content: "\2014 \2009";
 
 }
 
-.participation .mean_title{
+/*.participation .mean_title{
   color: #454545;
   font-family: "raleway-bold", Helvetica, Arial, sans-serif;
   font-size: 23px;
@@ -725,6 +774,30 @@ content: "\2014 \2009";
   text-align: center; 
   align-items: center;
   background-color: #B0C4DE;
+}*/
+
+.participation .mean_title{
+  /*color: #454545;
+  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center; 
+  background-color: #B0C4DE;*/
+  margin:0 0 20px 0; 
+  font-size:22px; 
+  line-height:normal; 
+  font-weight:normal; 
+  text-transform:uppercase;
+  text-align: center; 
+  color: #474747;
+  font-family: "Georgia";
+  padding:0px 0px 8px;
+  line-height: 1.5em;
+  position:relative;
+  /*border-bottom: 2px solid blue;
+  border-bottom-width: thick;*/
 }
 
 

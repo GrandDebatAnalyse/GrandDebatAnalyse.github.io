@@ -21,9 +21,8 @@
     <section class="Title">
       <div class="caption">
         <div class='cap_text'>
-          <h1 class="mean_cap">Le Grand Débat, <br>Un Grand Blabla ?</hA>
-            
-          <div class="sub_cap" id="typed"></div>
+          <h1 class="mean_cap" >Le Grand <span class="typed"></span></h1>
+          <div class="sub_cap">Un voyage dans les données !</div>
 
           <a href="#presentation" class="btn_details"><span>Allons-y !</span></a>
         </div>
@@ -58,25 +57,27 @@
 
     <!--  Start survey Section  -->
     <section class="survey">
-	    <div class="row">
-	    	<h1 class="mean_title">Continuons le débat !</hA>
-	    </div>
-        <div class="monkey_surv">
-            <!div class="col-lg-10 mx-auto" align="center">
-                <script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd3_2BgVUc4OYLvBCw_2BBhi6vVw4OKBNNm3xoVkm5ixFAaau.js"].join(""),a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script><a style="font: 12px Helvetica, sans-serif; color: #999; text-decoration: none;" href=https://www.surveymonkey.com> Create your own user feedback survey </a>
-            <!/div>
+	    <h1 class="mean_title">Continuons le débat !</h1>
+      
+      <div class="monkey_surv">
+        <div class="col-lg-10 mx-auto" align="center">
+            <script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd3_2BgVUc4OYLvBCw_2BBhi6vVw4OKBNNm3xoVkm5ixFAaau.js"].join(""),a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script><a style="font: 12px Helvetica, sans-serif; color: #999; text-decoration: none;" href=https://www.surveymonkey.com> Create your own user feedback survey </a>
         </div>
+      </div>
 	</section>
 	<!--  End survey Section  -->
 
 	<!--  Start map Section  -->
 	<section class='map'>
 		<div class="row">
-	    	<h1 class="mean_title">Participation par département au débat sur la transition écologique</h1>
-        <iframe src="maps/map_transition_ecologique_participation_per_department.html" title="Map ecology participation per department"
+
+	    <h1 class="mean_title">Participation par département au débat sur la transition écologique</h1>
+      
+      <iframe src="maps/map_transition_ecologique_participation_per_department.html" title="Map ecology participation per department"
                 width="650" height="800" allow='fullscreen' style="display: block; margin-left: auto; margin-right: auto;">
-        </iframe>
-	   </div>
+      </iframe>
+
+	 </div>
 	</section>
 	<!--  End map Section  -->
 
@@ -142,7 +143,7 @@
 	    </section>
 
 	<!--  Start participation Section  -->
-	<section class="survey">
+	<section class="participation">
 	    <div class="row">
 	    	<h1 class="mean_title">Une participation qui décroît au fil du temps : les gens fatigués de blablater</hA>
 	    </div>
@@ -155,10 +156,11 @@
   <!-- Javascript Scripts  -->
 
   <script type="text/javascript">
-    var typed = new Typed('#typed', {
-      strings: ["Un voyage dnas","Un voyage dans lse don","Un voyage dans les données !"],
+    var typed = new Typed('.typed', {
+      strings: ["Débat","BlaBla ?"],
       typeSpeed: 50,
-      cursorChar: '',
+      cursorChar: '_',
+      loop = true,
       smartBackspace: false
     });
   </script>

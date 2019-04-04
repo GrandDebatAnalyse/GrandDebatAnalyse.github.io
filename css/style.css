@@ -70,6 +70,7 @@ body{margin:0;}
 .presentation{
   /*padding: 30px 0;*/
   padding: 15px 30px 90px 30px; 
+  background-color: #F5F5F5;
 }
 
 .presentation .mean_title,
@@ -109,7 +110,6 @@ body{margin:0;}
   flex-direction: column;
   /*width: 100%;*/
   /*height: 980px;*/
-  background-color: #F5F5F5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -200,29 +200,11 @@ body{margin:0;}
 /*    Survey    */
 
 .survey{
-  /*padding: 30px 0;*/
-  display: flex;
-  flex-direction: column;
-  /*width: 100%;*/
-  /*height: 980px;*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-     background-size: cover; 
-  text-align: center;
-  align-items: center;
-  /*padding: 140px 0;*/
   padding: 15px 30px 90px 30px; 
-}
-
-.survey .mean_title,
-.survey .sub_title{
-  color: #454545;
-  font-family: "raleway-light", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: lighter;
+  background-size: cover; 
   text-align: center;
   align-items: center;
+  background-color: #F5F5F5;
 }
 
 .survey .mean_title{
@@ -233,12 +215,15 @@ body{margin:0;}
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center; 
+  align-items: center;
   background-color: #B0C4DE;
 }
 
 .survey .monkey_surv{
   text-align: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -484,28 +469,32 @@ body{margin:0;}
 /*#region MODULES */
 /*#endregion */
 
-/*     Call to action     */
-
-.cta{
-  background: #ffffff;
-  /*padding: 140px 0;
-  background: url('../img/cubes.png') repeat;*/
-  text-align: center;
+/* Maps section */
+.map{
   padding: 15px 30px 90px 30px; 
 }
 
-.cta .title{
+.map .mean_title{
   color: #454545;
   font-family: "raleway-bold", Helvetica, Arial, sans-serif;
   font-size: 23px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 2px;
+  margin-bottom: 20px;
   text-align: center; 
-  background-color: #efc5c3;
+  align-items: center;
+  background-color: #B0C4DE;
 }
 
+/*     Call to action     */
 
+.cta{
+  /*padding: 140px 0;
+  background: url('../img/cubes.png') repeat;*/
+  text-align: center;
+  padding: 15px 30px 90px 30px; 
+  background-color: #F5F5F5;
+}
 
 .cta .sub_title{
   color: #454545;
@@ -531,7 +520,7 @@ body{margin:0;}
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center; 
-  background-color: #dec6c5;
+  background-color: #B0C4DE;
 }
 
 
@@ -692,5 +681,19 @@ content: "\2014 \2009";
 }
 
 
+/* Participation */
+.participation{
+  padding: 15px 30px 90px 30px; 
+}
 
-
+.participation .mean_title{
+  color: #454545;
+  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center; 
+  align-items: center;
+  background-color: #B0C4DE;
+}

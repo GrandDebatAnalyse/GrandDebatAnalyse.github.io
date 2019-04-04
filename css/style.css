@@ -1,5 +1,5 @@
-/*    Title    */
 body{margin:0;}
+/*    Title    */
 .Title{
   margin:0;
   padding:0;
@@ -7,7 +7,7 @@ body{margin:0;}
   height: 650px;
   background: url('../img/top_img.jpg') no-repeat 50% 50%;
   background-size: cover; 
-  padding-top: 100px;
+  padding-top: 10vw;
 }
 
 .Title div.caption{
@@ -19,6 +19,7 @@ body{margin:0;}
   margin-right: auto;
   text-align: center;
   background-color: rgba(30,30,30, .5);
+  padding-bottom: 30px;
 }
 
 .Title .caption .cap_text{
@@ -27,7 +28,7 @@ body{margin:0;}
 
 .Title .caption h1.mean_cap{
   font-family: "lato-black", Helvetica, Arial, sans-serif;
-  font-size: 58px;
+  font-size: 4vw;
   color: #fff;
   text-transform: uppercase;
   line-height: 70px;
@@ -37,7 +38,7 @@ body{margin:0;}
 .Title .caption .sub_cap{
   font-family: "lato-light", Helvetica, Arial, sans-serif;
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 3vw;
   color: #fff;
   text-transform: uppercase;
   line-height: 70px;
@@ -48,21 +49,22 @@ body{margin:0;}
   display: inline-block;
   color: #fff;
   font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 1.5vw;
   letter-spacing: .5px;
   position: relative;
   margin-right: 5px;
   border-bottom: 1px dashed #ffffff;
   padding-bottom: 0px;
   animation: Test 1s infinite;
-    animation-name: Test;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
+  animation-name: Test;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  padding-bottom: 10px;
 }
 
 /*    presentation    */

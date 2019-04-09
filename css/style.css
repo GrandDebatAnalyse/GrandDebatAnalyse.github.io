@@ -1,8 +1,12 @@
 body{
   margin:0;
 }
-.h1,.h2.h3{
-  font-family: Roboto;
+h1, h2, h3{
+  font-family: Roboto ,sans-serif;
+  text-align: center;
+}
+h1, h2{
+  font-weight: 900;
 }
 
 /*    Title    */
@@ -42,7 +46,6 @@ body{
 }
 
 .Title .caption .sub_cap{
-  font-weight: lighter;
   font-size: 3vw;
   color: #fff;
   text-transform: uppercase;
@@ -77,13 +80,9 @@ body{
   background-color: #F5F5F5;
 }
 
-
-
-.presentation .mean_title,
 .presentation .sub_title{
   color: #454545;
   font-size: 16px;
-  font-weight: lighter;
   text-align: center;
   align-items: center;
   
@@ -96,8 +95,7 @@ body{
 .presentation .mean_title{
   margin:0 0 20px 0; 
   font-size:22px; 
-  line-height:normal; 
-  font-weight:normal; 
+  line-height:normal;
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
@@ -113,7 +111,6 @@ body{
 .presentation .sub_title{
   color: #454545;
   font-size: 16px;
-  font-weight: lighter;
   text-align: center;
   align-items: center;
 }
@@ -139,7 +136,6 @@ body{
 .historique .sub_title{
   color: #454545;
   font-size: 16px;
-  font-weight: lighter;
   text-align: center;
   align-items: center;
 }
@@ -147,8 +143,7 @@ body{
 .historique .mean_title{
   margin:0 0 20px 0; 
   font-size:22px; 
-  line-height:normal; 
-  font-weight:normal; 
+  line-height:normal;
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
@@ -162,7 +157,6 @@ body{
 .historique .sub_title{
   color: #454545;
   font-size: 16px;
-  font-weight: lighter;
   text-align: center;
   align-items: center;
 }
@@ -185,7 +179,6 @@ body{
 .historique .title{
   color: #454545;
   font-size: 26px;
-  font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
   text-align: center
@@ -222,8 +215,7 @@ body{
 .survey .mean_title{
   margin:0 0 20px 0; 
   font-size:22px; 
-  line-height:normal; 
-  font-weight:normal; 
+  line-height:normal;
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
@@ -491,8 +483,7 @@ body{
 .map .mean_title{
   margin:0 0 20px 0; 
   font-size:22px; 
-  line-height:normal; 
-  font-weight:normal; 
+  line-height:normal;
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
@@ -511,7 +502,6 @@ body{
 .cta .sub_title{
   color: #454545;
   font-size: 16px;
-  font-weight: lighter;
   text-align: center;
   align-items: center;
 }
@@ -526,8 +516,7 @@ body{
 .cta .mean_title{
   margin:0 0 20px 0; 
   font-size:22px; 
-  line-height:normal; 
-  font-weight:normal; 
+  line-height:normal;
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
@@ -540,7 +529,6 @@ body{
 .cta .partage{
   color: #454545;
   font-size: 25px;
-  font-weight: bold;
   text-align: center; 
   margin-bottom: 10px;
 }
@@ -551,7 +539,6 @@ body{
   font-size: 19px;
     margin-bottom: 24px;
     margin-top: 14px;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -569,7 +556,6 @@ body{
   margin-right: 30px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
   line-height: 20px;
 }
 
@@ -581,7 +567,6 @@ body{
   margin-right: 30px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
 }
 
 .text_funny4 {
@@ -592,7 +577,6 @@ body{
   margin-right: 30px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
 }
 
 .text_funny5 {
@@ -603,7 +587,6 @@ body{
   margin-right: 30px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
 }
 
 .text_funny6 {
@@ -614,7 +597,6 @@ body{
   margin-right: 30px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
 }
 
 
@@ -678,7 +660,6 @@ content: "\2014 \2009";
 .text_para{
   color: #454545;
   font-size: 16px;
-  font-weight: lighter;
   text-align: center;
   align-items: center;
 }
@@ -694,8 +675,7 @@ content: "\2014 \2009";
 .participation .mean_title{
   margin:0 0 20px 0; 
   font-size:22px; 
-  line-height:normal; 
-  font-weight:normal; 
+  line-height:normal;
   text-transform:uppercase;
   text-align: center; 
   color: #474747;

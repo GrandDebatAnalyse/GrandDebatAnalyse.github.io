@@ -8,6 +8,17 @@ h1, h2, h3{
 h1, h2{
   font-weight: 900;
 }
+h2{
+  margin:0 0 20px 0; 
+  font-size:22px; 
+  line-height:normal;
+  text-transform:uppercase;
+  text-align: center; 
+  color: #474747;
+  padding:0px 0px 8px;
+  line-height: 1.5em;
+  position:relative;
+}
 
 /*    Title    */
 .Title{
@@ -92,21 +103,7 @@ h1, h2{
   box-sizing: border-box;
 }
 
-.presentation .mean_title{
-  margin:0 0 20px 0; 
-  font-size:22px; 
-  line-height:normal;
-  text-transform:uppercase;
-  text-align: center; 
-  color: #474747;
-  padding:0px 0px 8px;
-  line-height: 1.5em;
-  position:relative;
-}
-
 .presentation .main_title::after{display:block; position:absolute; bottom:0; left:50%; width:50px; height:2px; margin-left:-25px; content:"";}
-
-
 
 .presentation .sub_title{
   color: #454545;
@@ -120,39 +117,21 @@ h1, h2{
 .historique{
   display: flex;
   flex-direction: column;
-  /*width: 100%;*/
-  /*height: 980px;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
      background-size: cover; 
   text-align: center;
   align-items: center;
-  /*padding: 140px 0;*/
   padding: 15px 30px 90px 30px; 
 }
 
-.historique .mean_title,
 .historique .sub_title{
   color: #454545;
   font-size: 16px;
   text-align: center;
   align-items: center;
 }
-
-.historique .mean_title{
-  margin:0 0 20px 0; 
-  font-size:22px; 
-  line-height:normal;
-  text-transform:uppercase;
-  text-align: center; 
-  color: #474747;
-  padding:0px 0px 8px;
-  line-height: 1.5em;
-  position:relative;
-}
-
-
 
 .historique .sub_title{
   color: #454545;
@@ -184,7 +163,6 @@ h1, h2{
   text-align: center
 }
 
-
 .btn_holder{
   text-align: center;
 }
@@ -202,7 +180,6 @@ h1, h2{
     align-items:center;
 }
 
-
 /*    Survey    */
 
 .survey{
@@ -212,17 +189,6 @@ h1, h2{
   align-items: center;
 }
 
-.survey .mean_title{
-  margin:0 0 20px 0; 
-  font-size:22px; 
-  line-height:normal;
-  text-transform:uppercase;
-  text-align: center; 
-  color: #474747;
-  padding:0px 0px 8px;
-  line-height: 1.5em;
-  position:relative;
-}
 .survey .monkey_surv{
   text-align: center;
   align-items: center;
@@ -230,9 +196,7 @@ h1, h2{
   flex-direction: column;
 }
 
-
 /*    nuagesmots    */
-
 
 .csslider {
   -moz-perspective: 1300px;
@@ -474,22 +438,8 @@ h1, h2{
 /*#endregion */
 
 /* Maps section */
-.map{
-  padding: 15px 30px 90px 30px; 
+.map{ 
   background-color: #F5F5F5;
-
-}
-
-.map .mean_title{
-  margin:0 0 20px 0; 
-  font-size:22px; 
-  line-height:normal;
-  text-transform:uppercase;
-  text-align: center; 
-  color: #474747;
-  padding:0px 0px 8px;
-  line-height: 1.5em;
-  position:relative;
 }
 
 /*     Call to action     */
@@ -506,25 +456,9 @@ h1, h2{
   align-items: center;
 }
 
-
 .cta .btn_fancy{
   margin-top: 60px;
 }
-
-
-
-.cta .mean_title{
-  margin:0 0 20px 0; 
-  font-size:22px; 
-  line-height:normal;
-  text-transform:uppercase;
-  text-align: center; 
-  color: #474747;
-  padding:0px 0px 8px;
-  line-height: 1.5em;
-  position:relative;
-}
-
 
 .cta .partage{
   color: #454545;
@@ -532,7 +466,6 @@ h1, h2{
   text-align: center; 
   margin-bottom: 10px;
 }
-
 
 /* text */ 
 .titre_fact {
@@ -600,26 +533,25 @@ h1, h2{
 }
 
 
- img.wrapdroite {
+img.wrapdroite {
   float: right;
   margin-right: 10px;
-    margin-left: 20px;
- }
+  margin-left: 20px;
+}
 
- img.wrapgauche {
+img.wrapgauche {
   float: left;
   margin-right: 10px;
-    margin-left: 20px;
- }
+  margin-left: 20px;
+}
 
- img.wrapcenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    width: 40%;
- }
-
+img.wrapcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 40%;
+}
 
 /* quote */ 
 blockquote {
@@ -655,15 +587,12 @@ blockquote cite:before {
 content: "\2014 \2009";
 }
 
-
-
 .text_para{
   color: #454545;
   font-size: 16px;
   text-align: center;
   align-items: center;
 }
-
 
 /* Participation */
 .participation{
@@ -672,25 +601,10 @@ content: "\2014 \2009";
 
 }
 
-.participation .mean_title{
-  margin:0 0 20px 0; 
-  font-size:22px; 
-  line-height:normal;
-  text-transform:uppercase;
-  text-align: center; 
-  color: #474747;
-  padding:0px 0px 8px;
-  line-height: 1.5em;
-  position:relative;
-}
-
-
 .mt-n25{
 margin-top: -28px;
 }
 
-
 .undecorated{
-list-style-type: none;;
+list-style-type: none;
 }
-

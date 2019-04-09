@@ -124,84 +124,11 @@ h2{
 	border-radius: 8px;
 }
 
-/*    historique    */
 
-.historique{
-  display: flex;
-  flex-direction: column;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-     background-size: cover; 
-  text-align: center;
-  align-items: center;
-  padding: 15px 30px 90px 30px; 
+.undecorated{
+list-style-type: none;
 }
 
-.historique .sub_title{
-  color: #454545;
-  font-size: 16px;
-  text-align: center;
-  align-items: center;
-}
-
-.historique .sub_title{
-  color: #454545;
-  font-size: 16px;
-  text-align: center;
-  align-items: center;
-}
-
-
-.historique .histoire_list{
-  margin-top: 100px;  text-align: center;
-}
-
-.historique .histoire_list .serv_icon{
-  margin-bottom: 60px;
-}
-
-.historique .histoire_list p{
-  color: #454545;
-  font-size: 14px;
-  line-height: 30px;
-}
-
-.historique .title{
-  color: #454545;
-  font-size: 26px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  text-align: center
-}
-
-.btn_holder{
-  text-align: center;
-}
-
-.historique .btn_fancy{
-  margin-top: 20px; 
-}
-
-.frise{
-  background: none;
-  width: 100%;
-  margin-top: 30px;
-  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-    justify-content: center;
-    align-items:center;
-}
-
-.historique .for_border{
-	border-top:2px solid #00008B;
-	width:7%;
-	align-items:center;
-	margin: auto;
-	margin-bottom:30px;
-	margin-top:0px;
-	padding-top:0px;
-	border-radius: 8px;
-}
 
 /*    Survey    */
 
@@ -673,8 +600,3 @@ content: "\2014 \2009";
 .mt-n25{
 margin-top: -28px;
 }
-
-.undecorated{
-list-style-type: none;
-}
-

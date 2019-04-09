@@ -9,16 +9,17 @@ h1, h2{
   font-weight: 900;
 }
 h2{
-  margin:0 0 20px 0; 
+  margin:0 0 5px 0; 
   font-size:22px; 
   line-height:normal;
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
-  padding:0px 0px 8px;
+  padding:0px 0px 0px;
   line-height: 1.5em;
   position:relative;
 }
+
 
 /*    Title    */
 .Title{
@@ -112,6 +113,17 @@ h2{
   align-items: center;
 }
 
+.presentation .for_border{
+	border-top:2px solid #00008B;
+	width:7%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
 /*    historique    */
 
 .historique{
@@ -180,6 +192,17 @@ h2{
     align-items:center;
 }
 
+.historique .for_border{
+	border-top:2px solid #00008B;
+	width:7%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
 /*    Survey    */
 
 .survey{
@@ -194,6 +217,17 @@ h2{
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.survey .for_border{
+	border-top:2px solid #00008B;
+	width:7%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
 }
 
 /*    nuagesmots    */
@@ -442,11 +476,33 @@ h2{
   background-color: #F5F5F5;
 }
 
+.map.for_border{
+	border-top:2px solid #00008B;
+	width:7%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
 /*     Call to action     */
 
 .cta{
   text-align: center;
   padding: 15px 30px 90px 30px; 
+}
+
+.cta .for_border{
+	border-top:2px solid #00008B;
+	width:7%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
 }
 
 .cta .sub_title{
@@ -600,6 +656,19 @@ content: "\2014 \2009";
   background-color: #F5F5F5;
 
 }
+
+.participation .for_border{
+	border-top:2px solid #00008B;
+	width:7%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
+
 
 .mt-n25{
 margin-top: -28px;

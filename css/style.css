@@ -1,7 +1,10 @@
 body{
   margin:0;
-  font-style: Roboto;
 }
+.h1,.h2.h3{
+  font-family: Roboto;
+}
+
 /*    Title    */
 .Title{
   margin:0;
@@ -31,8 +34,6 @@ body{
 }
 
 .Title .caption h1.mean_cap{
-  font-family:'Montserrat', 'Montserrat', sans-serif;
-  /* font-family: "lato-black", Helvetica, Arial, sans-serif;*/
   font-size: 4vw;
   color: #fff;
   text-transform: uppercase;
@@ -41,7 +42,6 @@ body{
 }
 
 .Title .caption .sub_cap{
-  font-family: "lato-light", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   font-size: 3vw;
   color: #fff;
@@ -53,7 +53,6 @@ body{
 .Title .caption .btn_details span{
   display: inline-block;
   color: #fff;
-  font-family: "raleway-regular", Helvetica, Arial, sans-serif;
   font-size: 1.5vw;
   letter-spacing: .5px;
   position: relative;
@@ -83,8 +82,6 @@ body{
 .presentation .mean_title,
 .presentation .sub_title{
   color: #454545;
-
-  font-family: "raleway-light", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
@@ -97,14 +94,6 @@ body{
 }
 
 .presentation .mean_title{
-  /*color: #454545;
-  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  text-align: center; 
-  background-color: #B0C4DE;*/
   margin:0 0 20px 0; 
   font-size:22px; 
   line-height:normal; 
@@ -112,12 +101,9 @@ body{
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
-  font-family: "Georgia";
   padding:0px 0px 8px;
   line-height: 1.5em;
   position:relative;
-  /*border-bottom: 2px solid blue;
-  border-bottom-width: thick;*/
 }
 
 .presentation .main_title::after{display:block; position:absolute; bottom:0; left:50%; width:50px; height:2px; margin-left:-25px; content:"";}
@@ -126,7 +112,6 @@ body{
 
 .presentation .sub_title{
   color: #454545;
-  font-family: "raleway-light", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
@@ -153,7 +138,6 @@ body{
 .historique .mean_title,
 .historique .sub_title{
   color: #454545;
-  font-family: "raleway-light", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
@@ -161,14 +145,6 @@ body{
 }
 
 .historique .mean_title{
-  /*color: #454545;
-  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  text-align: center; 
-  background-color: #B0C4DE;*/
   margin:0 0 20px 0; 
   font-size:22px; 
   line-height:normal; 
@@ -176,19 +152,15 @@ body{
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
-  font-family: "Georgia";
   padding:0px 0px 8px;
   line-height: 1.5em;
   position:relative;
-  /*border-bottom: 2px solid blue;
-  border-bottom-width: thick;*/
 }
 
 
 
 .historique .sub_title{
   color: #454545;
-  font-family: "raleway-light", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
@@ -206,14 +178,12 @@ body{
 
 .historique .histoire_list p{
   color: #454545;
-  font-family: "raleway-regular", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 30px;
 }
 
 .historique .title{
   color: #454545;
-  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
   font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
@@ -250,14 +220,6 @@ body{
 }
 
 .survey .mean_title{
-  /*color: #454545;
-  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  text-align: center; 
-  background-color: #B0C4DE;*/
   margin:0 0 20px 0; 
   font-size:22px; 
   line-height:normal; 
@@ -265,12 +227,9 @@ body{
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
-  font-family: "Georgia";
   padding:0px 0px 8px;
   line-height: 1.5em;
   position:relative;
-  /*border-bottom: 2px solid blue;
-  border-bottom-width: thick;*/
 }
 .survey .monkey_surv{
   text-align: center;
@@ -530,14 +489,6 @@ body{
 }
 
 .map .mean_title{
-  /*color: #454545;
-  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  text-align: center; 
-  background-color: #B0C4DE;*/
   margin:0 0 20px 0; 
   font-size:22px; 
   line-height:normal; 
@@ -545,26 +496,20 @@ body{
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
-  font-family: "Georgia";
   padding:0px 0px 8px;
   line-height: 1.5em;
   position:relative;
-  /*border-bottom: 2px solid blue;
-  border-bottom-width: thick;*/
 }
 
 /*     Call to action     */
 
 .cta{
-  /*padding: 140px 0;
-  background: url('../img/cubes.png') repeat;*/
   text-align: center;
   padding: 15px 30px 90px 30px; 
 }
 
 .cta .sub_title{
   color: #454545;
-  font-family: "raleway-light", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
@@ -579,14 +524,6 @@ body{
 
 
 .cta .mean_title{
-  /*color: #454545;
-  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  text-align: center; 
-  background-color: #B0C4DE;*/
   margin:0 0 20px 0; 
   font-size:22px; 
   line-height:normal; 
@@ -594,18 +531,14 @@ body{
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
-  font-family: "Georgia";
   padding:0px 0px 8px;
   line-height: 1.5em;
   position:relative;
-  /*border-bottom: 2px solid blue;
-  border-bottom-width: thick;*/
 }
 
 
 .cta .partage{
   color: #454545;
-  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
   font-size: 25px;
   font-weight: bold;
   text-align: center; 
@@ -615,7 +548,6 @@ body{
 
 /* text */ 
 .titre_fact {
-  font-family: Courier New, monospace;
   font-size: 19px;
     margin-bottom: 24px;
     margin-top: 14px;
@@ -624,7 +556,6 @@ body{
 }
 
 .text_funny {
-  font-family: Courier New, monospace;
   font-size: 15px;
   text-align: justify;
   margin-left: 30px;
@@ -632,11 +563,10 @@ body{
 }
 
 .text_funny2 {
-    font-family: "Bookman Old Style";
   font-size: 15px;
   text-align: justify;
   margin-left: 30px;
-    margin-right: 30px;
+  margin-right: 30px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -644,48 +574,44 @@ body{
 }
 
 .text_funny3 {
-    font-family: Bradley Hand, cursive;
-    font-style: normal;
+  font-style: normal;
   font-size: 15px;
   text-align: justify;
   margin-left: 30px;
-    margin-right: 30px;
+  margin-right: 30px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
 }
 
 .text_funny4 {
-    font-family: URW Chancery L, cursive;
-    font-style: normal;
+  font-style: normal;
   font-size: 15px;
   text-align: justify;
   margin-left: 30px;
-    margin-right: 30px;
+  margin-right: 30px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
 }
 
 .text_funny5 {
-    font-family: Gill Sans, sans-serif;
-    font-style: normal;
+  font-style: normal;
   font-size: 15px;
   text-align: justify;
   margin-left: 30px;
-    margin-right: 30px;
+  margin-right: 30px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
 }
 
 .text_funny6 {
-    font-family: Helvetica ;
-    font-style: normal;
+  font-style: normal;
   font-size: 15px;
   text-align: justify;
   margin-left: 30px;
-    margin-right: 30px;
+  margin-right: 30px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -715,7 +641,6 @@ body{
 
 /* quote */ 
 blockquote {
-font-family: Georgia, serif;
 font-size: 14px;
 font-style: italic;
 width: 500px;
@@ -752,7 +677,6 @@ content: "\2014 \2009";
 
 .text_para{
   color: #454545;
-  font-family: "raleway-light", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   text-align: center;
@@ -767,27 +691,7 @@ content: "\2014 \2009";
 
 }
 
-/*.participation .mean_title{
-  color: #454545;
-  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  text-align: center; 
-  align-items: center;
-  background-color: #B0C4DE;
-}*/
-
 .participation .mean_title{
-  /*color: #454545;
-  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  text-align: center; 
-  background-color: #B0C4DE;*/
   margin:0 0 20px 0; 
   font-size:22px; 
   line-height:normal; 
@@ -795,12 +699,9 @@ content: "\2014 \2009";
   text-transform:uppercase;
   text-align: center; 
   color: #474747;
-  font-family: "Georgia";
   padding:0px 0px 8px;
   line-height: 1.5em;
   position:relative;
-  /*border-bottom: 2px solid blue;
-  border-bottom-width: thick;*/
 }
 
 

@@ -157,6 +157,13 @@ div.li_pres_subjects_text.active{
   color: #ffffff;
 }
 
+div.txt_right{
+  display: none;
+}
+div.txt_right.active{
+  display: block;
+}
+
 /*    Historique    */
 
 .historique{

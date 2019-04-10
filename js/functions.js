@@ -9,5 +9,11 @@ for (var i = 0; i < lis.length; i++) {
     var current = liContainer.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
+    var currentTextRight = document.getElementById("text_pres_right").getElementsByClassName("active");
+    currentTextRight[0].className = currentTextRight[0].className.replace(" active", "");
+
+    var liContainerRight = document.getElementById("text_pres_right");
+    var RightDivToChange = liContainerRight.getElementsByClassName(this.id)[0]
+    RightDivToChange.className += " active";
   });
 }

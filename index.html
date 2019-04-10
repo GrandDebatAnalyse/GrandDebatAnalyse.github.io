@@ -123,30 +123,30 @@
           <div class="row" id="accordion">
           <div class="col-4">
             <ul style='border-right: solid;padding-left: 0;min-height: 140px;' id='list_pres'>
-              <li class='li_pres_subjects' >
-                <a href="#" data-toggle="collapse" data-target="#TranEco" >
-                   <div class='li_pres_subjects_text active'>
+              <li class='li_pres_subjects'>
+                <a href="#">
+                   <div id="TranEco" class='li_pres_subjects_text active'>
          		       La transition écologique
       		        </div>
                 </a>
               </li>
               <li class='li_pres_subjects'>
-                <a href="#" data-toggle="collapse" data-target="#FiDep" >
-                  <div class='li_pres_subjects_text'>
+                <a href="#">
+                  <div id="FiDep" class='li_pres_subjects_text'>
                   Fiscalité et dépenses publiques
                   </div>
                 </a>
               </li>
               <li class='li_pres_subjects'>
-                <a href="#" data-toggle="collapse" data-target="#DemCi" >
-                  <div class='li_pres_subjects_text'>
+                <a href="#">
+                  <div id="DemCi" class='li_pres_subjects_text'>
                   La démocratie et la citoyenneté 
                   </div>
                 </a>
               </li>
               <li class='li_pres_subjects'>
-                <a href="#" data-toggle="collapse" data-target="#EtPu" >
-                  <div class='li_pres_subjects_text'>
+                <a href="#">
+                  <div id="EtPu" class='li_pres_subjects_text'>
                   État et services publics
                   </div>
                 </a>
@@ -156,8 +156,8 @@
           <!-- Sccript Javascript qui laisse active la sélection dans le petit menu à gauche de la section -->
           <script type='text/javascript' src='js/functions.js'></script>
 
-          <div class="col-7">
-            <div id="TranEco" class="collapse show mt-n25" data-parent="#accordion">
+          <div class="col-7" id="text_pres_right">
+            <div class="TranEco txt_right active">
               <h3 >   Transition écologique </h3>
               <ul>
                 <li> Le financement de la transition écologique </li>
@@ -165,7 +165,7 @@
                 <li> Quelles propositions concrètes faire pour accélérer notre transition environnementale ? </li>
               </ul>
             </div>
-            <div id="FiDep" class="collapse mt-n25" data-parent="#accordion">
+            <div class="FiDep txt_right">
               <h3>Fiscalité et dépenses publiques </h3>
               <ul>
                 <li>Comment rendre la fiscalité plus juste et efficace ? </li>
@@ -173,7 +173,7 @@
                 <li> Quelles propositions concrètes pour accélérer la transition environnementale </li>
               </ul>
             </div>
-            <div id="DemCi" class="collapse mt-n25" data-parent="#accordion">
+            <div class="DemCi txt_right">
               <h3>La démocratie et la citoyenneté</h3>
               <ul>
                 <li>Faut-il reconnaître le vote blanc ? </li>
@@ -181,7 +181,7 @@
                 <li>Quel rôle ont nos assemblées ? </li>
               </ul>
             </div>
-            <div id="EtPu" class="collapse mt-n25" data-parent="#accordion">
+            <div class="EtPu txt_right">
               <h3>Etat et services publics</h3>
               <ul>
                 <li>Rendre les administrations et les services publics plus efficaces, plus accessibles et plus transparents </li>

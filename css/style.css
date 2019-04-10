@@ -179,6 +179,21 @@ div.li_pres_subjects_text.active{
 	border-radius: 8px;
 }
 
+/* Maps section */
+.map{ 
+  background-color: #F5F5F5;
+}
+
+.map .for_border{
+  border-top:2px solid #A9A9A9;
+  width:5%;
+  align-items:center;
+  margin: auto;
+  margin-bottom:30px;
+  margin-top:0px;
+  padding-top:0px;
+}
+
 
 /*    Survey    */
 
@@ -447,22 +462,6 @@ div.li_pres_subjects_text.active{
 }
 /*#region MODULES */
 /*#endregion */
-
-/* Maps section */
-.map{ 
-  background-color: #F5F5F5;
-}
-
-.map.for_border{
-	border-top:2px solid #A9A9A9;
-	width:5%;
-	align-items:center;
-	margin: auto;
-	margin-bottom:30px;
-	margin-top:0px;
-	padding-top:0px;
-	border-radius: 8px;
-}
 
 /*     Call to action     */
 

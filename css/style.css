@@ -113,8 +113,8 @@ h2{
 }
 
 .presentation .for_border{
-	border-top:2px solid #00008B;
-	width:7%;
+	border-top:2px solid #A9A9A9;
+	width:5%;
 	align-items:center;
 	margin: auto;
 	margin-bottom:30px;
@@ -157,6 +157,28 @@ div.li_pres_subjects_text.active{
   color: #ffffff;
 }
 
+/*    Historique    */
+
+.historique{
+	margin:0px;
+	padding: 15px 30px 90px 30px; 
+  background-size: cover; 
+  text-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.historique .for_border{
+	border-top:2px solid #A9A9A9;
+	width:5%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
 
 /*    Survey    */
 
@@ -175,8 +197,8 @@ div.li_pres_subjects_text.active{
 }
 
 .survey .for_border{
-	border-top:2px solid #00008B;
-	width:7%;
+	border-top:2px solid #A9A9A9;
+	width:5%;
 	align-items:center;
 	margin: auto;
 	margin-bottom:30px;
@@ -432,8 +454,8 @@ div.li_pres_subjects_text.active{
 }
 
 .map.for_border{
-	border-top:2px solid #00008B;
-	width:7%;
+	border-top:2px solid #A9A9A9;
+	width:5%;
 	align-items:center;
 	margin: auto;
 	margin-bottom:30px;
@@ -450,8 +472,8 @@ div.li_pres_subjects_text.active{
 }
 
 .cta .for_border{
-	border-top:2px solid #00008B;
-	width:7%;
+	border-top:2px solid #A9A9A9;
+	width:5%;
 	align-items:center;
 	margin: auto;
 	margin-bottom:30px;
@@ -613,8 +635,8 @@ content: "\2014 \2009";
 }
 
 .participation .for_border{
-	border-top:2px solid #00008B;
-	width:7%;
+	border-top:2px solid #A9A9A9;
+	width:5%;
 	align-items:center;
 	margin: auto;
 	margin-bottom:30px;

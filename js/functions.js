@@ -7,7 +7,7 @@ var lis = liContainer.getElementsByClassName("li_pres_subjects_text");
 for (var i = 0; i < lis.length; i++) {
   lis[i].addEventListener("click", function() {
     var current = liContainer.getElementsByClassName("active");
-    if (current.length==0 | this!=current[0]) {
+    if (current.length==0 || this!=current[0]) {
     	this.className += " active";
     }
     if (current.length==1){

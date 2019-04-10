@@ -181,6 +181,11 @@ div.li_pres_subjects_text.active{
 
 /* Maps section */
 .map{ 
+  margin:0px;
+  padding: 15px 30px 90px 30px; 
+  background-size: cover;
+  text-align: center;
+  align-items: center; 
   background-color: #F5F5F5;
 }
 

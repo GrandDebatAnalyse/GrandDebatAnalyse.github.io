@@ -72,7 +72,7 @@
       		</div>
       		<br>             
            
-              <ul class="undecorated">
+              <ul style="list-style-type: none;">
                 <li> Tous les citoyens </li>   
     
               </ul>
@@ -84,7 +84,7 @@
              <div style = "display:inline;margin:0;font-size:16px;font-weight:bold;">
          		Quand ? 
       		</div>
-              <ul class="undecorated">
+              <ul style="list-style-type: none;">
                   <li> De janvier à avril 2019 </li>   
               </ul>
           </div>
@@ -95,7 +95,7 @@
          		   Où ? 
       		    </div>
 
-              <ul class="undecorated">
+              <ul style="list-style-type: none;">
                 <li> Partout en France </li>  
     
              </ul>
@@ -105,7 +105,7 @@
               <div style = "display:inline;margin:0;font-size:16px;font-weight:bold;">
          		Comment ? 
       		</div><br>
-                   <ul class="undecorated">
+                   <ul style="list-style-type: none;">
                    	<li> Plateformes numériques et conférences </li>
                    
 
@@ -120,46 +120,40 @@
         <div style="margin-top: 50px; background-color:#DCDCDC;padding-top: 50px; border-radius: 8px; align-self: center;width:80%;margin: auto;">
           <div class="row" id="accordion">
           <div class="col-4">
-            <ul style='border-right: solid;'>
-              <li class='undecorated' style="margin-bottom: 5px ">
+            <ul style='border-right: solid;padding-left: 0;min-height: 140px;' id='list_pres'>
+              <li class='li_pres_subjects' >
                 <a href="#" data-toggle="collapse" data-target="#TranEco" >
-                  <span >
-                   <div style = "display:inline;font-size:16px;font-weight:normal;color:#696969;font-size:13pt;">
-         		La transition écologique
-      		</div>
-                  </span>
+                   <div class='li_pres_subjects_text active'>
+         		       La transition écologique
+      		        </div>
                 </a>
               </li>
-              <li class='undecorated' style="margin-bottom: 5px">
+              <li class='li_pres_subjects'>
                 <a href="#" data-toggle="collapse" data-target="#FiDep" >
-                  <span>
-                  	<div style = "display:inline;font-size:16px;font-weight:normal;color:#696969;font-size:13pt">
-                  		Fiscalité et dépenses publiques
-                  	</div>
-                    
-                  </span>
+                  <div class='li_pres_subjects_text'>
+                  Fiscalité et dépenses publiques
+                  </div>
                 </a>
               </li>
-              <li class='undecorated' style="margin-bottom: 5px">
+              <li class='li_pres_subjects'>
                 <a href="#" data-toggle="collapse" data-target="#DemCi" >
-                  <span>
-                  	<div style = "display:inline;font-size:16px;font-weight:normal;color:#696969;font-size:13pt">
-                    La démocratie et la citoyenneté 
-                </div>
-                  </span>
+                  <div class='li_pres_subjects_text'>
+                  La démocratie et la citoyenneté 
+                  </div>
                 </a>
               </li>
-              <li class='undecorated' style="margin-bottom: 5px">
+              <li class='li_pres_subjects'>
                 <a href="#" data-toggle="collapse" data-target="#EtPu" >
-                  <span>
-                  	<div style = "display:inline;font-size:16px;font-weight:normal;color:#696969;font-size:13pt">
-                    Etat et services publics
-                </div>
-                  </span>
+                  <div class='li_pres_subjects_text'>
+                  État et services publics
+                  </div>
                 </a>
               </li>
             </ul>
           </div>
+          <!-- Sccript Javascript qui laisse active la sélection dans le petit menu à gauche de la section -->
+          <script type='text/javascript' src='js/functions.js'></script>
+
           <div class="col-7">
             <div id="TranEco" class="collapse show mt-n25" data-parent="#accordion">
               <h3 >   Transition écologique </h3>

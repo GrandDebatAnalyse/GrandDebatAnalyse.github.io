@@ -20,7 +20,6 @@ h2{
   position:relative;
 }
 
-
 /*    Title    */
 .Title{
   margin:0;
@@ -125,8 +124,37 @@ h2{
 }
 
 
-.undecorated{
-list-style-type: none;
+li.li_pres_subjects{
+  padding-left: 2vw;
+  font-weight: bold;
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+li.li_pres_subjects a:hover{
+  text-decoration: none;
+}
+
+li.li_pres_subjects:hover{
+  text-decoration:none;
+}
+div.li_pres_subjects_text{
+  display:inline;
+  font-size:16px;
+  font-weight:normal;
+  color:#696969;
+  font-size:13pt;
+  -webkit-transition:  font-size 0.3s;
+  -moz-transition: font-size 0.3s;
+  -o-transition:  font-size 0.3s;
+  transition:  font-size 0.3s;
+}
+div.li_pres_subjects_text:hover{
+  font-size: 22px;
+  color: #ffffff;
+}
+div.li_pres_subjects_text.active{
+  font-size: 22px;
+  color: #ffffff;
 }
 
 

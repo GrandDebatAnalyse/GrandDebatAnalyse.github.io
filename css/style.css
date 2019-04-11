@@ -234,34 +234,6 @@ div.container{
   padding-top:0px;
 }
 
-
-/*    Survey    */
-
-.survey{
-  padding: 15px 30px 90px 30px; 
-  background-size: cover; 
-  text-align: center;
-  align-items: center;
-}
-
-.survey .monkey_surv{
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.survey .for_border{
-	border-top:2px solid #A9A9A9;
-	width:5%;
-	align-items:center;
-	margin: auto;
-	margin-bottom:30px;
-	margin-top:0px;
-	padding-top:0px;
-	border-radius: 8px;
-}
-
 /*    nuagesmots    */
 
 .csslider {
@@ -682,6 +654,36 @@ content: "\2014 \2009";
 	margin-top:0px;
 	padding-top:0px;
 	border-radius: 8px;
+}
+
+/*    contact    */
+
+.contact{
+	padding: 15px 30px 90px 30px; 
+	background-color: #F5F5F5;
+}
+
+.contact .titre{
+	margin-top:20px;
+	line-height: 0px;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: Roboto ,sans-serif;
+	color: #474747;
+	margin:0 0 5px 0; 
+	line-height:normal;
+	padding:0px 0px 0px;
+	line-height: 1.5em;
+	position:relative;
+}
+
+.contact .para{
+	margin-top:30px;
+	font-size: 20px;
+}
+
+.contact .mail{
+	margin-top:10px;
 }
 
 

@@ -676,9 +676,6 @@ content: "\2014 \2009";
   align-items: center;
   background-color: #FFFFFF;
 
-  padding: 15px 10vw 90px 10vw; 
-  background-color: #F5F5F5;
-
 }
 
 .participation .for_border{
@@ -694,12 +691,8 @@ content: "\2014 \2009";
 
 /* Survey */
 .survey{
-  margin:0px;
-	padding: 15px 10vw 90px 10vw; 
-  background-size: cover; 
-  text-align: center;
-  align-items: center;
-  background-color: #FFFFFF;
+  padding: 15px 10vw 90px 10vw; 
+  background-color: #F5F5F5;
 }
 
 .survey .for_border{
@@ -722,9 +715,6 @@ content: "\2014 \2009";
   text-align: center;
   align-items: center;
   background-color: #FFFFFF;
-
-	padding: 15px 10vw 90px 10vw; 
-	background-color: #F5F5F5;
 }
 
 .contact .titre{

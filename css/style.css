@@ -211,7 +211,7 @@ div.txt_right.active{
 /* Maps section */
 .map{ 
   margin:0px;
-  padding: 15px 30px 90px 30px; 
+  padding: 15px 10vw 90px 10vw; 
   background-size: cover;
   text-align: center;
   align-items: center; 

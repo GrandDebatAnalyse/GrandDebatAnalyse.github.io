@@ -19,6 +19,18 @@ h2{
   line-height: 1.5em;
   position:relative;
 }
+section{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+p::first-letter{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Times New Roman;
+}
+p.paragraph{
+}
 
 /*    Title    */
 .Title{

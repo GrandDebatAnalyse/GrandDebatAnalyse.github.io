@@ -526,76 +526,12 @@ div.container{
     margin-right: 30px;
 }
 
-.text_funny2 {
-  font-size: 15px;
-  text-align: justify;
-  margin-left: 30px;
-  margin-right: 30px;
-  font-style: normal;
-  font-variant: normal;
-  line-height: 20px;
-}
-
-.text_funny3 {
-  font-style: normal;
-  font-size: 15px;
-  text-align: justify;
-  margin-left: 30px;
-  margin-right: 30px;
-  font-style: normal;
-  font-variant: normal;
-}
-
-.text_funny4 {
-  font-style: normal;
-  font-size: 15px;
-  text-align: justify;
-  margin-left: 30px;
-  margin-right: 30px;
-  font-style: normal;
-  font-variant: normal;
-}
-
-.text_funny5 {
-  font-style: normal;
-  font-size: 15px;
-  text-align: justify;
-  margin-left: 30px;
-  margin-right: 30px;
-  font-style: normal;
-  font-variant: normal;
-}
-
-.text_funny6 {
-  font-style: normal;
-  font-size: 15px;
-  text-align: justify;
-  margin-left: 30px;
-  margin-right: 30px;
-  font-style: normal;
-  font-variant: normal;
-}
-
-
-img.wrapdroite {
-  float: right;
-  margin-right: 10px;
-  margin-left: 20px;
-}
-
 img.wrapgauche {
   float: left;
   margin-right: 10px;
   margin-left: 20px;
 }
 
-img.wrapcenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  width: 40%;
-}
 
 /* quote */ 
 blockquote {

@@ -1,9 +1,17 @@
+@font-face {
+font-family: "Adine Kirnberg";
+src: url("fonts/Adine Kirnberg.ttf");
+}
+
 body{
   margin:0;
 }
 h1, h2, h3{
   font-family: Roboto ,sans-serif;
   text-align: center;
+}
+ p, span, div{
+  font-family: Roboto ,sans-serif;
 }
 h1, h2{
   font-weight: 900;
@@ -19,14 +27,27 @@ h2{
   line-height: 1.5em;
   position:relative;
 }
+section{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
 
+p.paragraph::first-letter{
+  line-height: 0px;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Adine Kirnberg";
+}
+p.paragraph{
+  text-align: justify;
+}
 
 /*    Title    */
 .Title{
   margin:0;
   padding:0;
   width: 100%;
-  height: 50vw;
+  height: 800px;
   background: url('../img/top_img.jpg') no-repeat 50% 50%;
   filter: saturate(50%);
   background-size: cover; 
@@ -88,7 +109,7 @@ h2{
 
 .presentation{
   /*padding: 30px 0;*/
-  padding: 15px 30px 90px 30px; 
+  padding: 15px 10vw 90px 10vw; 
   background-color: #F5F5F5;
 }
 
@@ -114,8 +135,8 @@ h2{
 }
 
 .presentation .for_border{
-	border-top:2px solid #00008B;
-	width:7%;
+	border-top:2px solid #A9A9A9;
+	width:5%;
 	align-items:center;
 	margin: auto;
 	margin-bottom:30px;
@@ -125,11 +146,32 @@ h2{
 }
 
 
-.undecorated{
-list-style-type: none;
+li.li_pres_subjects{
+  padding-left: 2vw;
+  font-weight: bold;
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+li.li_pres_subjects a:hover{
+  text-decoration: none;
 }
 
+li.li_pres_subjects:hover{
+  text-decoration:none;
+}
+div.li_pres_subjects_text{
+  display:inline;
+  font-size:16px;
+  font-weight:normal;
+  color:#696969;
+  font-size:13pt;
+  -webkit-transition:  font-size 0.3s;
+  -moz-transition: font-size 0.3s;
+  -o-transition:  font-size 0.3s;
+  transition:  font-size 0.3s;
+}
 
+<<<<<<< HEAD
 
 /*    MARIE BarCharts Taux Remplissage MARIE */
 
@@ -174,30 +216,104 @@ list-style-type: none;
 
 
 /*    Survey    */
+=======
+div.li_pres_subjects_text_bis{
+  display:inline;
+  font-size:16px;
+  font-weight:normal;
+  color:#000000;
+  font-size:13pt;
+  -webkit-transition:  font-size 0.3s;
+  -moz-transition: font-size 0.3s;
+  -o-transition:  font-size 0.3s;
+  transition:  font-size 0.3s;
+}
+>>>>>>> ffa7f5725f0e8bc1e300159f1a0700db625704ed
 
-.survey{
-  padding: 15px 30px 90px 30px; 
+div.li_pres_subjects_text:hover{
+  font-size: 22px;
+  color: #ffffff;
+}
+div.li_pres_subjects_text.active{
+  font-size: 22px;
+  color: #ffffff;
+}
+
+div.txt_right{
+  display: none;
+}
+div.txt_right.active{
+  display: block;
+}
+div.container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-rows: 200px;
+}
+
+/*    Historique    */
+
+.historique{
+	margin:0px;
+	padding: 15px 10vw 90px 10vw; 
   background-size: cover; 
   text-align: center;
   align-items: center;
+  background-color: #FFFFFF;
 }
 
-.survey .monkey_surv{
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.survey .for_border{
-	border-top:2px solid #00008B;
-	width:7%;
+.historique .for_border{
+	border-top:2px solid #A9A9A9;
+	width:5%;
 	align-items:center;
 	margin: auto;
 	margin-bottom:30px;
 	margin-top:0px;
 	padding-top:0px;
 	border-radius: 8px;
+}
+
+/*    Chiffres    */
+
+.chiffres{
+	margin:0px;
+	padding: 15px 10vw 90px 10vw; 
+	background-size: cover;
+	text-align: center;
+	align-items: center; 
+	background-color: #F5F5F5;
+}
+
+.chiffres .for_border{
+	border-top:2px solid #A9A9A9;
+	width:5%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
+/* Maps section */
+.map{ 
+  margin:0px;
+	padding: 15px 10vw 90px 10vw; 
+  background-size: cover; 
+  text-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.map .for_border{
+  border-top:2px solid #A9A9A9;
+  width:5%;
+  align-items:center;
+  margin: auto;
+  margin-bottom:30px;
+  margin-top:0px;
+  padding-top:0px;
 }
 
 /*    nuagesmots    */
@@ -253,7 +369,7 @@ list-style-type: none;
   z-index: 1;
   font-size: 0;
   line-height: 0;
-  background-color: #f2f2f285;
+  background-color: #FFFFFF;
   /*border: 10px solid #d1d1d1;*/
   margin: 0 auto;
   padding: 1px;
@@ -441,32 +557,23 @@ list-style-type: none;
 /*#region MODULES */
 /*#endregion */
 
-/* Maps section */
-.map{ 
-  background-color: #F5F5F5;
-}
-
-.map.for_border{
-	border-top:2px solid #00008B;
-	width:7%;
-	align-items:center;
-	margin: auto;
-	margin-bottom:30px;
-	margin-top:0px;
-	padding-top:0px;
-	border-radius: 8px;
-}
-
 /*     Call to action     */
 
 .cta{
+  margin:0px;
+	padding: 15px 10vw 90px 10vw; 
+	background-size: cover;
+	text-align: center;
+	align-items: center; 
+	background-color: #F5F5F5;
+
   text-align: center;
-  padding: 15px 30px 90px 30px; 
+  padding: 15px 10vw 90px 10vw;
 }
 
 .cta .for_border{
-	border-top:2px solid #00008B;
-	width:7%;
+	border-top:2px solid #A9A9A9;
+	width:5%;
 	align-items:center;
 	margin: auto;
 	margin-bottom:30px;
@@ -502,6 +609,7 @@ list-style-type: none;
 }
 
 .text_funny {
+	margin-top:8%;
   font-size: 15px;
   text-align: justify;
   margin-left: 30px;
@@ -622,20 +730,103 @@ content: "\2014 \2009";
 
 /* Participation */
 .participation{
-  padding: 15px 30px 90px 30px; 
-  background-color: #F5F5F5;
+  margin:0px;
+	padding: 15px 10vw 90px 10vw; 
+  background-size: cover; 
+  text-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
 
 }
 
 .participation .for_border{
-	border-top:2px solid #00008B;
-	width:7%;
+	border-top:2px solid #A9A9A9;
+	width:5%;
 	align-items:center;
 	margin: auto;
 	margin-bottom:30px;
 	margin-top:0px;
 	padding-top:0px;
 	border-radius: 8px;
+}
+
+/*    Limites    */
+
+.limites{
+	margin:0px;
+	padding: 15px 10vw 90px 10vw; 
+	background-size: cover;
+	text-align: center;
+	align-items: center; 
+	background-color: #F5F5F5;
+}
+
+.limites .for_border{
+	border-top:2px solid #A9A9A9;
+	width:5%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
+
+
+
+
+/* Survey */
+.survey{
+	 margin:0px;
+	padding: 15px 10vw 90px 10vw; 
+  background-size: cover; 
+  text-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+
+.survey .for_border{
+	border-top:2px solid #A9A9A9;
+	width:5%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
+/*    contact    */
+
+.contact{
+  padding: 15px 10vw 90px 10vw; 
+  background-color: #F5F5F5;
+  text-align: center;
+  align-items: center;
+}
+
+.contact .titre{
+	margin-top:20px;
+	line-height: 0px;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: Roboto ,sans-serif;
+	color: #474747;
+	margin:0 0 5px 0; 
+	line-height:normal;
+	padding:0px 0px 0px;
+	line-height: 1.5em;
+	position:relative;
+}
+
+.contact .para{
+	margin-top:30px;
+	font-size: 20px;
+}
+
+.contact .mail{
+	margin-top:10px;
 }
 
 

@@ -170,6 +170,19 @@ div.li_pres_subjects_text{
   -o-transition:  font-size 0.3s;
   transition:  font-size 0.3s;
 }
+
+div.li_pres_subjects_text_bis{
+  display:inline;
+  font-size:16px;
+  font-weight:normal;
+  color:#000000;
+  font-size:13pt;
+  -webkit-transition:  font-size 0.3s;
+  -moz-transition: font-size 0.3s;
+  -o-transition:  font-size 0.3s;
+  transition:  font-size 0.3s;
+}
+
 div.li_pres_subjects_text:hover{
   font-size: 22px;
   color: #ffffff;
@@ -689,10 +702,40 @@ content: "\2014 \2009";
 	border-radius: 8px;
 }
 
+/*    Limites    */
+
+.limites{
+	margin:0px;
+	padding: 15px 10vw 90px 10vw; 
+	background-size: cover;
+	text-align: center;
+	align-items: center; 
+	background-color: #F5F5F5;
+}
+
+.limites .for_border{
+	border-top:2px solid #A9A9A9;
+	width:5%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
+
+
+
+
 /* Survey */
 .survey{
-  padding: 15px 10vw 90px 10vw; 
-  background-color: #F5F5F5;
+	 margin:0px;
+	padding: 15px 10vw 90px 10vw; 
+  background-size: cover; 
+  text-align: center;
+  align-items: center;
+  background-color: #FFFFFF;
 }
 
 .survey .for_border{
@@ -709,12 +752,10 @@ content: "\2014 \2009";
 /*    contact    */
 
 .contact{
-	margin:0px;
-	padding: 15px 10vw 90px 10vw; 
-  background-size: cover; 
+  padding: 15px 10vw 90px 10vw; 
+  background-color: #F5F5F5;
   text-align: center;
   align-items: center;
-  background-color: #FFFFFF;
 }
 
 .contact .titre{

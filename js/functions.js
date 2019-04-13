@@ -1,3 +1,6 @@
+
+///==================================/////
+///For the presentation
 // Get the container element
 var liContainer = document.getElementById("list_pres");
 // Get all buttons with class="btn" inside the container
@@ -18,8 +21,8 @@ for (var i = 0; i < lis.length; i++) {
   });
 }
 
-
-// For the BarPLot Section
+///==============================///
+////// For the BarPLot Section   //////
 // Get the container element
 var liContainer_BarPlots = document.getElementById("list_BarPlots");
 // Get all buttons with class="btn" inside the container
@@ -39,3 +42,12 @@ for (var i = 0; i < div_BarPlots.length; i++) {
     RightDivToChange.className += " active";
   });
 }
+
+
+///==============================///
+////// Nivo LightBox   //////
+
+$('.lightbox').nivoLightbox({
+	effect: 'fadeScale',
+	keyboardNav: true,
+});

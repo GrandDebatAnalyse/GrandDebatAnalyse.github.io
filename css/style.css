@@ -689,14 +689,37 @@ content: "\2014 \2009";
   align-items: center;
 }
 
-/* Participation */
-.participation{
-  margin:0px;
+/*    Limites    */
+
+.limites{
+	 margin:0px;
 	padding: 15px 10vw 90px 10vw; 
   background-size: cover; 
   text-align: center;
   align-items: center;
   background-color: #FFFFFF;
+}
+
+.limites .for_border{
+	border-top:2px solid #A9A9A9;
+	width:5%;
+	align-items:center;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:0px;
+	padding-top:0px;
+	border-radius: 8px;
+}
+
+
+/* Participation */
+.participation{
+	margin:0px;
+	padding: 15px 10vw 90px 10vw; 
+	background-size: cover;
+	text-align: center;
+	align-items: center; 
+	background-color: #F5F5F5;
 
 }
 
@@ -711,27 +734,6 @@ content: "\2014 \2009";
 	border-radius: 8px;
 }
 
-/*    Limites    */
-
-.limites{
-	margin:0px;
-	padding: 15px 10vw 90px 10vw; 
-	background-size: cover;
-	text-align: center;
-	align-items: center; 
-	background-color: #F5F5F5;
-}
-
-.limites .for_border{
-	border-top:2px solid #A9A9A9;
-	width:5%;
-	align-items:center;
-	margin: auto;
-	margin-bottom:30px;
-	margin-top:0px;
-	padding-top:0px;
-	border-radius: 8px;
-}
 
 
 

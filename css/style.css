@@ -171,7 +171,6 @@ div.li_pres_subjects_text{
   transition:  font-size 0.3s;
 }
 
-<<<<<<< HEAD
 
 /*    MARIE BarCharts Taux Remplissage MARIE */
 
@@ -216,7 +215,7 @@ div.li_pres_subjects_text{
 
 
 /*    Survey    */
-=======
+
 div.li_pres_subjects_text_bis{
   display:inline;
   font-size:16px;
@@ -228,7 +227,7 @@ div.li_pres_subjects_text_bis{
   -o-transition:  font-size 0.3s;
   transition:  font-size 0.3s;
 }
->>>>>>> ffa7f5725f0e8bc1e300159f1a0700db625704ed
+
 
 div.li_pres_subjects_text:hover{
   font-size: 22px;
@@ -314,6 +313,32 @@ div.container{
   margin-bottom:30px;
   margin-top:0px;
   padding-top:0px;
+}
+
+li.li_BarPlots_subjects{
+  padding-left: 2vw;
+  font-weight: bold;
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+li.li_BarPlots_subjects a:hover{
+  text-decoration:none;
+}
+
+.li_BarPlots_subjects:hover{
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.li_BarPlots_subjects_text:hover{
+  font-size: 22px;
+  color: #ffffff;
+}
+
+div.li_BarPlots_subjects_text.active{
+  font-size: 22px;
+  color: #ffffff;
 }
 
 /*    nuagesmots    */

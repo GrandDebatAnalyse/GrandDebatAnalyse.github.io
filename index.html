@@ -33,6 +33,8 @@
     <!--    Stylesheet Files    -->
     <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
 
@@ -59,22 +61,22 @@
       <h2 class="mean_title">Le Grand Débat, c'est quoi ?</h2>
       <div class='for_border'></div>
       
-      <p class="paragraph">
+      <p class="paragraph" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
         Face aux violences des gilets jaunes qui ne cessaient pas, le président Emmanuel Macron a décidé de proposer aux citoyens de s’exprimer dans le cadre d'un "Grand Débat National". Chaque citoyen a donc été invité à exprimer ses attentes, dans l’idée qu’un dialogue national s’engage entre tous et que tous puissent y contribuer. Mais ce Grand Débat pose plusieurs problèmes. La mise en place, les questions posées qui semblaient orientées, ou la difficulté de lecture des résultats, par exemple.<br>
         C'est pour cette raison que notre équipe de statisticiens a voulu apporter des outils de lecture pour que tout le monde puisse comprendre les débouchés du Grand Débat. Cela nous a paru indispensable pour que chacun puisse plonger dans la masse de données qui a été produite par les cahiers de doléance. Et vous verrez en conclusion de notre étude que le <span style="font-weight: bold;"> résultat est plus que mitigé</span>...
       </p>
       <br>
       <br>
-      <p>
+      <p data-aos="fade-in" data-aos-delay="300" data-aos-anchor-placement="bottom-bottom">
         Commençons notre voyage par poser quatre questions sur le Grand Débat.
       </p>
       <br>
 
       <div class="container">
-        <div>
+        <div data-aos="fade-up" data-aos-delay="600" data-aos-anchor-placement="bottom-bottom">
           <img src="img/qui.png" alt="Qui a pu participer au Grand Débat National mené par le gouvernement Macron ?"> 
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="600" data-aos-anchor-placement="bottom-bottom">
           <div style = "display:inline;margin:0;font-size:16px;font-weight:bold;">
        		 Un débat pour qui ? 
     		  </div>
@@ -84,10 +86,10 @@
           </div>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-delay="1000" data-aos-anchor-placement="bottom-bottom">
           <img src="img/quand.png" alt="Quand s'est déroulé le Grand Débat National ?" style="padding-left: 10px"> 
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="1000" data-aos-anchor-placement="bottom-bottom">
           <div style = "display:inline;margin:0;font-size:16px;font-weight:bold;">
        		 Un débat quand ? 
        		</div>
@@ -97,10 +99,10 @@
           </div>   
         </div>
           
-        <div>
+        <div data-aos="fade-up" data-aos-delay="1400" data-aos-anchor-placement="bottom-bottom">
           <img src="img/ou.png" alt="Où s'est déroulé le Grand Débat National ?" style="padding-left: 10px">
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="1400" data-aos-anchor-placement="bottom-bottom">
           <div style = "margin:0;font-size:16px;font-weight:bold;">
        	   Un débat où ? 
           </div> 
@@ -109,10 +111,10 @@
           </div>
         </div>
         
-        <div>
+        <div data-aos="fade-up" data-aos-delay="1800" data-aos-anchor-placement="bottom-bottom">
           <img src="img/comment.png" alt="De quelle façon s'est déroulé le Grand Débat National ?" style="padding-left: 10px">
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="1800" data-aos-anchor-placement="bottom-bottom">
           <div style = "display:inline;margin:0;font-size:16px;font-weight:bold;">
        		 Un débat comment ? 
           </div>
@@ -124,12 +126,13 @@
       </div>
       <br>
 
-      <p>
+      <p data-aos="fade-in" data-aos-anchor-placement="bottom-bottom">
         Pour participer au Grand Débat, les citoyens étaient invités à s'exprimer sur des sujets choisis. Ceux-ci étaient au nombre de quatre, et il était possible d'en ajouter (ce qui n'a pas été trop utilisé). Chaque sujet comprenait des questions déjà rédigées, afin de donner un paradigme aux expressions des citoyens. Vous pourrez retrouver dans l'encadré ci-dessous les grandes questions amenées par chacun des sujets.
       </p>
       <br>
 
-      <div style="margin-top: 50px; background-color:#DCDCDC;padding-top: 30px; border-radius: 8px; align-self: center;width:100%;margin-top: 40px;">
+      <div style="margin-top: 50px; background-color:#DCDCDC;padding-top: 30px; border-radius: 8px; align-self: center;width:100%;margin-top: 40px;"
+      data-aos="fade-in" data-aos-delay="600" data-aos-anchor-placement="bottom-bottom">
         <div class="row">
           <div class="col-5">
             <ul style='border-right: solid;padding-left: 0;min-height: 140px;' id='list_pres'>
@@ -526,7 +529,10 @@
         });
       });
     </script>
-    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>

@@ -42,12 +42,3 @@ for (var i = 0; i < div_BarPlots.length; i++) {
     RightDivToChange.className += " active";
   });
 }
-
-
-///==============================///
-////// Nivo LightBox   //////
-
-$('.lightbox').nivoLightbox({
-	effect: 'fadeScale',
-	keyboardNav: true,
-});

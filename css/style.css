@@ -758,9 +758,10 @@ content: "\2014 \2009";
 
 .contact{
   padding: 15px 10vw 90px 10vw; 
-  background-color: #F5F5F5;
   text-align: center;
   align-items: center;
+  background: url(../img/foot1.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .contact .titre{
@@ -769,7 +770,7 @@ content: "\2014 \2009";
 	font-weight: bold;
 	font-size: 50px;
 	font-family: Roboto ,sans-serif;
-	color: #474747;
+	color: #fff;
 	margin:0 0 5px 0; 
 	line-height:normal;
 	padding:0px 0px 0px;

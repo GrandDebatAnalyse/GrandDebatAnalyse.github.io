@@ -84,7 +84,7 @@ p.paragraph{
   padding:10px;
 }
 
-.Title .caption h1.mean_cap{
+.Title .caption h2.mean_cap{
   font-size: 4vw;
   color: #fff;
   text-transform: uppercase;
@@ -93,6 +93,7 @@ p.paragraph{
 }
 
 .Title .caption .sub_cap{
+  margin:20px 0 5px 0; 
   font-size: 3vw;
   color: #fff;
   text-transform: uppercase;

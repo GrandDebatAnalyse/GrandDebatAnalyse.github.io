@@ -327,25 +327,10 @@ li.li_BarPlots_subjects a:hover{
   text-decoration:none;
 }
 
-.li_BarPlots_subjects:hover{
-  font-size: 22px;
-  color: #ffffff;
-}
-
-.li_BarPlots_subjects_text:hover{ /*quand on survole mais on n'a pas cliqué*/
-  font-size: 22px;
-  color: #343a40;
-}
-
 div.li_BarPlots_subjects_text.active{ /*quand est cliqué*/
   font-size: 22px;
   /* color: #343a40; */
 }
-div.li_BarPlots_subjects_text_TranEco.active{ /*quand est cliqué*/
-  font-size: 22px;
-  style="color: rgb(50, 171, 96);"
-}
-
 
 
 /*    nuagesmots    */
@@ -773,9 +758,10 @@ content: "\2014 \2009";
 
 .contact{
   padding: 15px 10vw 90px 10vw; 
-  background-color: #F5F5F5;
   text-align: center;
   align-items: center;
+  background: url(../img/foot1.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .contact .titre{
@@ -784,7 +770,7 @@ content: "\2014 \2009";
 	font-weight: bold;
 	font-size: 50px;
 	font-family: Roboto ,sans-serif;
-	color: #474747;
+	color: #fff;
 	margin:0 0 5px 0; 
 	line-height:normal;
 	padding:0px 0px 0px;

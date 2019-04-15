@@ -42,3 +42,9 @@ for (var i = 0; i < div_BarPlots.length; i++) {
     RightDivToChange.className += " active";
   });
 }
+
+///===================================
+// Wait for window load
+setTimeout(function(){
+	$(".se-pre-con").fadeOut("slow");
+}, 2000);

@@ -42,6 +42,19 @@ p.paragraph{
   text-align: justify;
 }
 
+/* Loader style */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../img/Preloader.gif) center no-repeat #fff;
+}
+
 /*    Title    */
 .Title{
   margin:0;

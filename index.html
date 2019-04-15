@@ -392,10 +392,143 @@
         </div>
       </div>
     </section>
-    
-  	  
-    
     <!-- End map and Completion rate Bar charts Section -->
+
+
+    <!--- New Section -->
+    <section class='map' style="text-align:center;margin:auto;">
+      <h2 class="mean_title">Participation par département au débat sur la transition écologique</h2>
+      <div class='for_border'></div>
+      <p class="paragraph">Qui sont ceux qui ont le plus contribué au débat ? Peu de données ont été recueillies sur les répondants, mais ceux-ci avaient la possibilité de communiquer leur code postal. Voici la répartition du nombre de questionnaires remplis par département et par thème, en nombre absolu.
+      </p>
+      <iframe src="maps/map_transition_ecologique_participation_per_department.html"
+        title="Map ecology participation per department" width="100%" height="800" 
+        webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'>
+      </iframe>
+    
+      <p class="paragraph">Quels sont les thèmes et les questions qui ont suscité le plus d'attention de la part de nos concitoyens ? Beaucoup de critiques ou de commentaires creux mais peu de suggestions substantielles ? Nous vous présentons, pour chaque thème, les 5 questions auxquelles on a le plus et le moins répondu. <br>
+      On peut souvent remarquer que ce sont les réponses au tout début du questionnaire qui sont les plus complétées. On peut aussi voir que beaucoup d'avis généraux sont donnés mais que peu de propositions concrètes sont faites, même pour les questions les plus populaires. On pourra ainsi voir les taux de complétion très faibles des "Si oui, comment ?" après les questions très considérées comme "Faut-il donner un rôle plus important aux associations et aux organisations syndicales et professionnelles ?". On notera également le faible taux de réponses aux questions ouvertes à la fin de chaque questionnaire, ces questions ouvertes ayant en général moins de réponses.
+      </p>
+      <div style="margin-top: 50px; background-color:#FFF;padding-top: 30px; border-radius: 8px; align-self: center;width:100%;margin-top: 40px;">
+        <div  class="row" 
+              style="padding: 0;margin: 0;margin-bottom: 10px;display: grid;grid-template-columns: repeat(auto-fill,minmax(250px,1fr));grid-template-rows: 40px;margin-bottom: 20px;"
+              id='list_BarPlots2' > 
+
+          <div class='li_BarPlots_subjects' style="display: inline;padding: 0;margin: 0;">
+            <a href="#">
+              <button  id="TranEco_BarPlots2" class="li_BarPlots_subjects_text active btn btn-primary" style="background-color:#A9A9A9;border-color: #A9A9A9"> 
+               La transition écologique
+              </button>
+            </a>
+          </div>
+            
+          <div class='li_BarPlots_subjects' style="display: inline;padding: 0;margin: 0;">
+            <a href="#">
+              <button id="FiDep_BarPlots2" class='li_BarPlots_subjects_text btn btn-primary' style="background-color:#A9A9A9;border-color: #A9A9A9">
+                Fiscalité et dépenses publiques
+              </button>
+            </a>
+          </div>
+
+          <div class='li_BarPlots_subjects' style="display: inline;padding: 0;margin: 0;">
+            <a href="#">
+              <button id="DemCi_BarPlots2" class='li_BarPlots_subjects_text btn btn-primary' style="background-color:#A9A9A9;border-color: #A9A9A9">
+                La démocratie et la citoyenneté 
+              </button>
+            </a>
+          </div>
+
+          <div class='li_BarPlots_subjects' style="display: inline;padding: 0;margin: 0;">
+            <a href="#">
+              <button id="EtPu_BarPlots2" class='li_BarPlots_subjects_text btn btn-primary' style="background-color:#A9A9A9;border-color: #A9A9A9">
+                État et services publics
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- Script Javascript qui laisse active la sélection dans le petit menu à gauche de la section -->
+        <script type='text/javascript' src='js/functions.js'></script>
+
+        <div id="text_BarPlots_right2" style="border:1px solid;border-color: #A9A9A9;border-radius: 8px;background-color: #A9A9A9;margin-top: 60px;">
+          <div class="TranEco_BarPlots2 txt_right active">
+            <h3 style="padding-top: 10px;">   Transition écologique </h3>
+            <ul style="padding-left:3px">
+              <iframe src="BarPlotsCompletion/Trans_Ecolo_Top_Completion_Rate_per_question.html"
+                title="Barplot Top Trans Ecolo"
+                width="100%"
+                height="400"
+                style="border: none;margin-left: 15vw;">
+              </iframe>
+              Nombre total de réponses : 153 809 <br>
+              Nombre de questions posées : 16 <br>
+              Pourcentage de questionnaires remplis en entier : 12.0 % <br>
+              Pourcentage de questionnaires remplis en entier ou avec une seule réponse manquante : 30.2 % <br>
+              Pourcentage de questionnaires ayant une réponse manquante ou plus : 88.0 % <br>
+              Pourcentage de répondants n'ayant répondu qu'à la première question : 0.3 % <br>
+              Pourcentage de répondants ayant répondu au moins à la première question : 93.2 %
+            </ul>
+          </div>
+
+          <div class="FiDep_BarPlots2 txt_right">
+            <h3 style="padding-top: 10px;">Fiscalité et dépenses publiques </h3>
+            <ul style="padding-left:3px">
+              <iframe src="BarPlotsCompletion/Fiscalite_Taux_Completion_par_question.html"
+                title="Barplot Top Fiscalite"
+                width="100%"
+                height="400"
+                style="margin: auto;border: none;">
+              </iframe>
+              Nombre total de réponses : 186 711 <br>
+              Nombre de questions posées : 8 <br>
+              Pourcentage de questionnaires remplis en entier : 40.0 % <br>
+              Pourcentage de questionnaires remplis en entier ou avec une seule réponse manquante : 58.5 % <br>
+              Pourcentage de questionnaires ayant une réponse manquante ou plus : 60.0 % <br>
+              Pourcentage de répondants n'ayant répondu qu'à la première question : 1.2 % <br>
+              Pourcentage de répondants ayant répondu au moins à la première question : 69.1 %
+            </ul>
+          </div>
+
+          <div class="DemCi_BarPlots2 txt_right">
+            <h3 style="padding-top: 10px;">La démocratie et la citoyenneté</h3>
+            <ul style="padding-left:3px">
+              <iframe src="BarPlotsCompletion/Demo_Top_Completion_Rate_per_question.html"
+                title="Barplot Top Demo"
+                width="130%"
+                height="400"
+                style="margin: auto;border: none;">
+              </iframe>
+              Nombre total de réponses : 116 549 <br>
+              Nombre de questions posées : 37 <br>
+              Pourcentage de questionnaires remplis en entier : 5.0 % <br>
+              Pourcentage de questionnaires remplis en entier ou avec une seule réponse manquante : 11.9 % <br>
+              Pourcentage de répondants n'ayant répondu qu'à la première question : 0.9 % <br>
+              Pourcentage de répondants ayant répondu au moins à la première question : 76.6 %
+            </ul>
+          </div>
+
+          <div class="EtPu_BarPlots2 txt_right">
+            <h3 style="padding-top: 10px;">État et services publics</h3>
+            <ul style="padding-left:3px">
+              <iframe src="BarPlotsCompletion/Orga_Etat_Top_Completion_Rate_per_question.html"
+                title="Barplot Top Orga Etat"
+                width="130%"
+                height="400"
+                style="margin: auto;border: none;">
+              </iframe>
+              Nombre total de réponses : 111 953 <br>
+              Nombre de questions posées : 33 <br>
+              Pourcentage de questionnaires remplis en entier : 0.0 % <br>
+              Pourcentage de questionnaires remplis en entier ou avec une seule réponse manquante : 0.8 % <br>
+              Pourcentage de questionnaires ayant une réponse manquante ou plus : 100.0 % <br>
+              Pourcentage de répondants n'ayant répondu qu'à la première question : 3.5 % <br>
+              Pourcentage de répondants ayant répondu au moins à la première question : 75.4 %
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!--- End New Section -->
 
   	<!--  Start cta Section  -->
   	<section class="cta" id="funny">

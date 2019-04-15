@@ -327,25 +327,10 @@ li.li_BarPlots_subjects a:hover{
   text-decoration:none;
 }
 
-.li_BarPlots_subjects:hover{
-  font-size: 22px;
-  color: #ffffff;
-}
-
-.li_BarPlots_subjects_text:hover{ /*quand on survole mais on n'a pas cliqué*/
-  font-size: 22px;
-  color: #343a40;
-}
-
 div.li_BarPlots_subjects_text.active{ /*quand est cliqué*/
   font-size: 22px;
   /* color: #343a40; */
 }
-div.li_BarPlots_subjects_text_TranEco.active{ /*quand est cliqué*/
-  font-size: 22px;
-  style="color: rgb(50, 171, 96);"
-}
-
 
 
 /*    nuagesmots    */

@@ -807,7 +807,7 @@ content: "\2014 \2009";
 margin-top: -28px;
 }
 
-a {
+a.next.round {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
@@ -815,7 +815,7 @@ a {
 
 }
 
-a:hover {
+a.next.round:hover {
   background-color: #A9A9A9;
   color: black;
 }

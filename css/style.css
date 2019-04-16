@@ -806,3 +806,31 @@ content: "\2014 \2009";
 .mt-n25{
 margin-top: -28px;
 }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  float: right;
+
+}
+
+a:hover {
+  background-color: #A9A9A9;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #A9A9A9;
+  color: white;
+
+}
+
+.round {
+  border-radius: 50%;
+}
